@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background: rgb(31, 29, 29);
+}
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+    color: rgb(247, 247, 247);
+}
+.cons{
+    font-size: 40px;
+}
+.navname{
+    font-size: 40px;
+    cursor: pointer;
+}
+.navigation-left{
+    margin-top: 8%;
+    display: flex;
+    width: 100%;
+    position: relative; 
+    
+}
+.fas{
+    margin-left: 30px;
+    font-size: 25px;
+    padding-bottom: 50px;
+ }
+.nav-left{
+    font-size: 40px;
+    width: 30%;
+    color: rgb(255, 255, 255);
+}
+.topics-left{
+    padding-left: 50px;
+}
+.topics-left li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+hr{
+    width: 60%;
+    margin-bottom: 20px;
+}
